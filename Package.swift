@@ -6,7 +6,7 @@ let package = Package(
   name: "hmap",
   products: [
     .executable(name: "hmap", targets: ["hmap"]),
-    .library(name: "hmap", targets: ["hmap"]),
+    .library(name: "hmaplib", targets: ["HeaderMapFrontend"]),
   ],
   dependencies: [
     .package(
